@@ -7,3 +7,5 @@ function reverseLetter(str) {
 }
 
 console.log(reverseLetter('hello'))
+
+// reverseLetter=(s)=>s.replace(/[^a-z]/gi,'').split('').reverse().join('');
